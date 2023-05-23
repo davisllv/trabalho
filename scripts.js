@@ -5,10 +5,10 @@ const body = document.querySelector("body");
 
 const modalContainer = document.querySelector(".modal__container");
 const textoCasamento = document.querySelector("#texto__casamento");
-const pressed = document.getElementById('pressed');
+
 let dataAtual = new Date();
 const novaData = new Date(dataAtual.setDate(dataAtual.getDate() + 30))
-console.log('novaData', novaData.getMonth())
+
 const dia = novaData.getDate();
 const mes = novaData.getMonth();
 const ano = novaData.getFullYear();
